@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materiales y Recursos Didácticos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .pdf-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .pdf-item {
+            flex: 1 1 200px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .pdf-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover
+        }
+
+        .pdf-item a {
+            display: block;
+            margin-top: 10px;
+            color: #007BFF;
+            text-decoration: none
+        }
+
+        .pdf-item a:hover {
+            text-decoration: underline
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="/img/foto-docente.jpg" alt="Foto del docente">
+            <h1>EDGAR LUIS VILCAPOMA ORIHUELA</h1>
+            <p>PRÁCTICA PREPROFESIONAL DISCONTINUA</p>
+            <p>VICTOR RAÚL HAYA DE LA TORRE - INEI 46</p>
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="archivos-principales.html">Archivos Principales</a></li>
+                <li><a href="talleres-formacion.html">Talleres de Formación</a></li>
+                <li><a href="sesiones.html">Sesiones</a></li>
+                <li><a href="fichas.html">Fichas</a></li>
+                <li><a href="observacion.html">Fichas de Observación</a></li>
+                <li><a href="autocritica.html">Fichas de Autocrítica</a></li>
+                <li><a href="materiales-recursos.html">Materiales y Recursos Didácticos</a></li>
+                <li><a href="evaluaciones.html">Evaluaciones</a></li>
+                <li><a href="registro-notas.html">Registro de Notas</a></li>
+                <li><a href="resultados.html">Resultados</a></li>
+                <li><a href="logros-desafios.html">Logros y Desafíos</a></li>
+                <li><a href="recomendaciones.html">Recomendaciones</a></li>
+                <li><a href="ppt-video.html">PPT y Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Materiales y Recursos Didácticos</h2>
+            <div class="pdf-container">
+                <div class="pdf-item">
+                    <img src="/img/recurso1.webp" alt="Recurso 1">
+                    <a href="https://drive.google.com/file/d/1ag_e6qm5aLkfV-Gp7-9MuUaennomUkNR/view?usp=drive_link" target="_blank">Recurso 1</a>
+                </div>
+                <div class="pdf-item">
+                    <img src="/img/recurso2.webp" alt="Recurso 2">
+                    <a href="https://drive.google.com/file/d/1uGjLTLZ5XjVBCqypT6Jh3BIzpJWp0BDM/view?usp=drive_link" target="_blank">Recurso 2</a>
+                </div>
+                <div class="pdf-item">
+                    <img src="/img/recurso3.webp" alt="Recurso 3">
+                    <a href="https://drive.google.com/file/d/17gc2YxUXOLkyGK7zkzJ1lS7iGd3SEoft/view?usp=drive_link" target="_blank">Recurso 3</a>
+                </div>
+        
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Edgar Luis Vilcapoma Orihuela. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>

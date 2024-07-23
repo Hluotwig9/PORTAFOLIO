@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendaciones</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .pdf-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px
+        }
+
+        .pdf-item {
+            flex: 1 1 200px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center
+        }
+
+        .pdf-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover
+        }
+
+        .pdf-item a {
+            display: block;
+            margin-top: 10px;
+            color: #007BFF;
+            text-decoration: none
+        }
+
+        .pdf-item a:hover {
+            text-decoration: underline
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="/img/foto-docente.jpg" alt="Foto del docente">
+            <h1>EDGAR LUIS VILCAPOMA ORIHUELA</h1>
+            <p>PRÁCTICA PREPROFESIONAL DISCONTINUA</p>
+            <p>VICTOR RAÚL HAYA DE LA TORRE - INEI 46</p>
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="archivos-principales.html">Archivos Principales</a></li>
+                <li><a href="talleres-formacion.html">Talleres de Formación</a></li>
+                <li><a href="sesiones.html">Sesiones</a></li>
+                <li><a href="fichas.html">Fichas</a></li>
+                <li><a href="observacion.html">Fichas de Observación</a></li>
+                <li><a href="autocritica.html">Fichas de Autocrítica</a></li>
+                <li><a href="materiales-recursos.html">Materiales y Recursos Didácticos</a></li>
+                <li><a href="evaluaciones.html">Evaluaciones</a></li>
+                <li><a href="registro-notas.html">Registro de Notas</a></li>
+                <li><a href="resultados.html">Resultados</a></li>
+                <li><a href="logros-desafios.html">Logros y Desafíos</a></li>
+                <li><a href="recomendaciones.html">Recomendaciones</a></li>
+                <li><a href="ppt-video.html">PPT y Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Recomendaciones</h2>
+            <div class="pdf-container">
+                <div class="pdf-item">
+                    <p>Es recomendable organizar talleres y sesiones de capacitación para los docentes sobre metodologías activas como el Aprendizaje Basado en Problemas (ABP) y el aprendizaje cooperativo. Esto ayudará a los docentes a sentirse más cómodos y competentes al implementar estas estrategias, mejorando así la experiencia de aprendizaje para los estudiantes. La formación continua puede incluir compartir experiencias y prácticas exitosas entre colegas para enriquecer el enfoque pedagógico.</p>
+                </div>
+                <div class="pdf-item">
+                    <p>Fomentar una comunicación abierta y constante con los estudiantes y sus padres sobre los beneficios y objetivos de las nuevas metodologías puede ayudar a reducir la resistencia inicial al cambio. Realizar reuniones informativas y proporcionar materiales que expliquen el propósito de estas estrategias puede facilitar la aceptación y el apoyo de todos los involucrados. Involucrar a los padres en el proceso educativo también puede reforzar el aprendizaje en el hogar y en el aula.</p>
+                </div>
+                <div class="pdf-item">
+                    <p>Considerar la ampliación del acceso a recursos tecnológicos es crucial para el éxito del proyecto. Esto puede incluir la búsqueda de financiamiento o colaboraciones con instituciones externas para adquirir más equipos y materiales educativos. Además, es importante asegurar que todos los estudiantes tengan acceso equitativo a estos recursos para participar plenamente en las actividades de aprendizaje. Promover el uso de tecnologías accesibles y herramientas digitales puede enriquecer las experiencias de aprendizaje y motivar a los estudiantes.</p>
+                </div>
+                <div class="pdf-item">
+                    <p>Desarrollar un plan de contingencia que permita adaptarse rápidamente a cambios imprevistos en el calendario escolar o en la disponibilidad de recursos es fundamental. Esto puede incluir la preparación de materiales y actividades alternativas que puedan implementarse en situaciones imprevistas, asegurando la continuidad del aprendizaje. Incluir sesiones de evaluación y reflexión periódicas con los estudiantes puede ayudar a ajustar el plan según sea necesario.</p>
+                </div>
+                <div class="pdf-item">
+                    <p>Implementar un sistema de evaluación continua que recoja retroalimentación de los estudiantes, padres y docentes puede proporcionar información valiosa sobre la efectividad de las estrategias implementadas. Utilizar encuestas, entrevistas y observaciones en el aula para identificar áreas de mejora y realizar ajustes oportunos asegurará que el proyecto evolucione para satisfacer las necesidades cambiantes de los estudiantes. La autoevaluación docente también es clave para reflexionar sobre las prácticas pedagógicas y mejorarlas continuamente.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Edgar Luis Vilcapoma Orihuela. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>

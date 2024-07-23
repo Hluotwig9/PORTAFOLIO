@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logros y Desafíos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .pdf-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px
+        }
+
+        .pdf-item {
+            flex: 1 1 200px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center
+        }
+
+        .pdf-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover
+        }
+
+        .pdf-item a {
+            display: block;
+            margin-top: 10px;
+            color: #007BFF;
+            text-decoration: none
+        }
+
+        .pdf-item a:hover {
+            text-decoration: underline
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="/img/foto-docente.jpg" alt="Foto del docente">
+            <h1>EDGAR LUIS VILCAPOMA ORIHUELA</h1>
+            <p>PRÁCTICA PREPROFESIONAL DISCONTINUA</p>
+            <p>VICTOR RAÚL HAYA DE LA TORRE - INEI 46</p>
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="archivos-principales.html">Archivos Principales</a></li>
+                <li><a href="talleres-formacion.html">Talleres de Formación</a></li>
+                <li><a href="sesiones.html">Sesiones</a></li>
+                <li><a href="fichas.html">Fichas</a></li>
+                <li><a href="observacion.html">Fichas de Observación</a></li>
+                <li><a href="autocritica.html">Fichas de Autocrítica</a></li>
+                <li><a href="materiales-recursos.html">Materiales y Recursos Didácticos</a></li>
+                <li><a href="evaluaciones.html">Evaluaciones</a></li>
+                <li><a href="registro-notas.html">Registro de Notas</a></li>
+                <li><a href="resultados.html">Resultados</a></li>
+                <li><a href="logros-desafios.html">Logros y Desafíos</a></li>
+                <li><a href="recomendaciones.html">Recomendaciones</a></li>
+                <li><a href="ppt-video.html">PPT y Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Logros y Desafíos</h2>
+            <div class="pdf-container">
+                <div class="pdf-item">
+                    <p>Como docente practicante, logré implementar estrategias activas, como los juegos formativos, que incrementaron notablemente la participación y motivación de mis estudiantes en el área de Ciencia y Tecnología. Esta metodología captó su interés y creó un ambiente de aprendizaje más dinámico, donde los estudiantes mostraron un entusiasmo renovado por las clases y actividades, lo que me permitió observar un cambio positivo en su actitud hacia el aprendizaje.</p>
+                   
+                </div>
+                <div class="pdf-item">
+                    <p>Introduje el Aprendizaje Basado en Problemas (ABP) en mis sesiones de clase, lo que facilitó que mis estudiantes desarrollaran habilidades de pensamiento crítico y reflexivo. A través de este enfoque, los estudiantes pudieron participar activamente en la resolución de problemas reales, mejorando su capacidad para analizar y sintetizar información. Este logro me proporcionó una experiencia valiosa al ver cómo los estudiantes mejoraban su capacidad para abordar problemas de manera lógica y creativa.</p>
+
+                </div>
+                <div class="pdf-item">
+                    <p>Fomenté un ambiente de aprendizaje colaborativo que mejoró la comunicación y la resolución de conflictos entre los estudiantes. Al integrar el aprendizaje cooperativo, observé un notable progreso en su capacidad para trabajar en equipo, lo que no solo enriqueció su experiencia de aprendizaje, sino que también desarrolló habilidades importantes para el trabajo colaborativo. Este logro me enseñó la importancia de promover un entorno inclusivo donde los estudiantes se sienten cómodos compartiendo ideas y trabajando juntos para lograr un objetivo común.</p>
+                </div>
+                <div class="pdf-item">
+                    <p>Como docente practicante, uno de los principales desafíos que enfrenté fue la resistencia inicial de algunos estudiantes a las nuevas metodologías de enseñanza que introduje, como los juegos formativos y el Aprendizaje Basado en Problemas (ABP). Algunos estudiantes se mostraron reacios a participar y a aceptar estos métodos poco convencionales. Este desafío me enseñó la importancia de ser paciente y persistente, y de adaptar mis estrategias para motivar a los estudiantes y ayudarles a ver el valor de estas nuevas formas de aprendizaje.</p>
+                </div>
+                <div class="pdf-item">
+                    <p>Durante el proyecto, me enfrenté a limitaciones de recursos tecnológicos y materiales, así como a cambios imprevistos en el calendario escolar, que afectaron la planificación y ejecución de las actividades. Este desafío me hizo comprender la importancia de ser flexible y creativo al utilizar los recursos disponibles y planificar mis clases de manera que pudiera adaptarme a circunstancias imprevistas. Aprendí a priorizar actividades y a ser más eficiente en la gestión del tiempo para asegurar que mis estudiantes recibieran una experiencia de aprendizaje valiosa a pesar de las limitaciones.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Edgar Luis Vilcapoma Orihuela. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Docente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="/img/foto-docente.jpg" alt="Foto del docente">
+            <h1>EDGAR LUIS VILCAPOMA ORIHUELA</h1>
+            <p>PRÁCTICA PREPROFESIONAL DISCONTINUA</p>
+            <p>VICTOR RAÚL HAYA DE LA TORRE - INEI 46</p>
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="archivos-principales.html">Archivos Principales</a></li>
+                <li><a href="talleres-formacion.html">Talleres de Formación</a></li>
+                <li><a href="sesiones.html">Sesiones</a></li>
+                <li><a href="fichas.html">Fichas</a></li>
+                <li><a href="observacion.html">Fichas de Observación</a></li>
+                <li><a href="autocritica.html">Fichas de Autocrítica</a></li>
+                <li><a href="materiales-recursos.html">Materiales y Recursos Didácticos</a></li>
+                <li><a href="evaluaciones.html">Evaluaciones</a></li>
+                <li><a href="registro-notas.html">Registro de Notas</a></li>
+                <li><a href="resultados.html">Resultados</a></li>
+                <li><a href="logros-desafios.html">Logros y Desafíos</a></li>
+                <li><a href="recomendaciones.html">Recomendaciones</a></li>
+                <li><a href="ppt-video.html">PPT y Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Bienvenido al Portafolio Docente</h2>
+            <p>"Buenos días, me complace presentarles mi portafolio de prácticas escolares, realizado en el Colegio Víctor Raúl Haya de la Torre INEI 46, donde he tenido la oportunidad de poner en práctica mis conocimientos y habilidades adquiridos en el aula. A lo largo de estas experiencias, he enfrentado desafíos que me han permitido crecer tanto personal como académicamente, reafirmando mi compromiso con el aprendizaje continuo. Agradezco a mis profesores por su apoyo y orientación durante este proceso y espero que este portafolio refleje fielmente el esfuerzo y dedicación que he puesto en cada actividad. Estoy emocionado de compartir con ustedes los logros alcanzados y las valiosas lecciones aprendidas."</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Edgar Luis Vilcapoma Orihuela. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
